@@ -1,153 +1,142 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Portfólio de Rone Bragaglia - Projetos em Inteligência Artificial, Marketing Digital e mais.">
-  <title>Portfólio de Rone Bragaglia</title>
-  <style>
-    /* Estilização geral */
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-      background-color: #f4f4f4;
-    }
-
-    header {
-      background-color: #255E63;
-      color: white;
-      padding: 20px;
-      text-align: center;
-    }
-
-    h1 {
-      margin: 0;
-    }
-
-    h2 {
-      margin: 1rem 0;
-      color: #333;
-    }
-
-    section {
-      padding: 2rem;
-    }
-
-    .projects {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-around;
-      gap: 20px;
-    }
-
-    .project {
-      background-color: white;
-      padding: 20px;
-      border-radius: 8px;
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-      text-align: center;
-      width: 280px;
-      margin-bottom: 20px;
-    }
-
-    .project img {
-      max-width: 100%;
-      height: auto;
-      border-radius: 8px;
-    }
-
-    /* Estilização da seção de Contatos */
-    #contatos {
-      text-align: center;
-      padding: 2rem;
-    }
-
-    .contatos a {
-      margin: 10px;
-      display: inline-block;
-    }
-
-    .contatos img {
-      width: 150px;
-      height: auto;
-      transition: transform 0.3s ease;
-    }
-
-    .contatos img:hover {
-      transform: scale(1.1);
-    }
-
-    /* Estilização dos badges */
-    .badge {
-      margin: 10px;
-      padding: 10px 20px;
-      border-radius: 5px;
-      background-color: #255E63;
-      color: white;
-      text-decoration: none;
-    }
-
-    .badge:hover {
-      background-color: #1a4d52;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio de Rone Bragaglia - Marketing Digital e IA</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <style>
+        .project-card img {
+            width: 400px; 
+            height: auto; 
+            display: block;
+            margin: 0 auto; 
+        }
+        .contatos a {
+            margin: 10px;
+        }
+        .contatos img {
+            width: 60px;
+        }
+    </style>
 </head>
 <body>
-  <header>
-    <h1>Portfólio de Rone Bragaglia</h1>
-    <p>Projetos de Inteligência Artificial, Marketing Digital e muito mais</p>
-  </header>
+    <header>
+        <h1>Bem-vindo ao meu Portfolio</h1>
+        <p>Sou Rone Bragaglia, formado em Análise e Desenvolvimento de Sistemas e pós-graduado em Inteligência Artificial e Aprendizado de Máquina pela UNINOVE. Atualmente, estou cursando meu MBA em Marketing e Transformação Digital. Com uma sólida experiência em IA e Marketing, busco resultados inovadores e impactantes.</p>
+    </header>
+    
+    <main>
+        
+        <h2>Meus Projetos de Marketing Digital</h2>
+        
+        <div class="project-card">
+            <h3>Gestão de Redes Sociais</h3>
+            <img src="https://static.portaldaindustria.com.br/portaldaindustria/noticias/media/imagem_plugin/shutterstock_C6TusCx.jpg" alt="Gestão de Redes Sociais">
+            <p>Desenvolvi uma estratégia de conteúdo para a página de estética no Instagram, focando no aumento de engajamento e seguidores. Utilizando posts criativos e campanhas de Stories, houve um aumento significativo nas interações.</p>
+            <a href="https://link-para-gestao-redes-sociais.com">Ver Projeto</a>
+        </div>
 
-  <section id="sobre">
-    <h2>Sobre Mim</h2>
-    <p>Sou Rone Bragaglia, profissional com experiência em projetos de IA, marketing digital e muito mais. Estou sempre em busca de novas formas de aplicar tecnologia e inovação em soluções reais. Com uma formação sólida em Inteligência Artificial e Aprendizado de Máquina, e experiência em áreas diversas como Marketing e Análise de Dados, tenho um portfólio diversificado.</p>
-  </section>
+        <div class="project-card">
+            <h3>Campanha de Anúncios no Instagram</h3>
+            <img src="https://postcron.com/pt/blog/wp-content/uploads/2016/08/instagram_ads.jpg" alt="Campanha de Anúncios no Instagram">
+            <p>Criação de uma campanha de anúncios no Instagram para uma marca de cosméticos, segmentando o público por interesses e demografia. A campanha gerou um aumento de 30% nas vendas e um ROI positivo.</p>
+            <a href="https://link-para-anuncios-instagram.com">Ver Projeto</a>
+        </div>
 
-  <section id="projetos">
-    <h2>Meus Projetos</h2>
-    <div class="projects">
-      <div class="project">
-        <h3>Detecção de Fraudes</h3>
-        <img src="https://static.wixstatic.com/media/bdd7cb_d48d6193dde7490dacd866a52916c21e~mv2.jpg/v1/fill/w_640,h_334,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/bdd7cb_d48d6193dde7490dacd866a52916c21e~mv2.jpg" alt="Detecção de Fraudes">
-        <p>Projeto focado em detectar fraudes em transações financeiras utilizando aprendizado de máquina.</p>
-        <a href="https://github.com/Ronbragaglia/credit-card-fraud" class="badge">Ver Projeto</a>
-      </div>
-      <div class="project">
-        <h3>Geração Automática de Descrições</h3>
-        <img src="https://www.unite.ai/wp-content/uploads/2023/11/5d1f93fb-0da0-497d-9e7e-6eeafd693444.jpg" alt="Geração de Descrições">
-        <p>Projeto que gera automaticamente descrições de produtos utilizando modelos de IA e redes neurais.</p>
-        <a href="https://github.com/Ronbragaglia/automatic-image-description" class="badge">Ver Projeto</a>
-      </div>
-    </div>
-  </section>
+        <div class="project-card">
+            <h3>SEO para Blog de Beleza</h3>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHZR1OvYoR-YOfkyd8u1Q00IFiUH50QLpWpQ&s" alt="SEO para Blog de Beleza">
+            <p>Trabalhei em estratégias de SEO para otimizar um blog de beleza, aumentando o tráfego orgânico em 50%. Utilizei técnicas de otimização de palavras-chave e link building.</p>
+            <a href="https://link-para-seo-blog.com">Ver Projeto</a>
+        </div>
 
-  <section id="contatos">
-    <h2>Meus Contatos</h2>
-    <div class="contatos">
-      <a href="https://www.linkedin.com/in/rone-bragaglia-a6aa60157/" target="_blank">
-        <img src="https://img.shields.io/badge/-LinkedIn-000?style=for-the-badge&logo=linkedin&logoColor=FF00F6&color:FFF" alt="LinkedIn">
-      </a>
-      <a href="https://discord.com/channels/@me/" target="_blank">
-        <img src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white" alt="Discord">
-      </a>
-      <a href="https://ronbragaglia.github.io/Portfolio/" target="_blank">
-        <img src="https://img.shields.io/badge/Portfolio-255E63?style=for-the-badge&logo=About.me&logoColor=white" alt="Portfolio">
-      </a>
-      <a href="https://ronbragaglia.github.io/portfolio-marketing-digital./" target="_blank">
-        <img src="https://img.shields.io/badge/Portfolio-Marketing_Digital-00A7C4?style=for-the-badge&logo=Marketing&logoColor=white" alt="Portfolio Marketing Digital">
-      </a>
-      <a href="https://mail.google.com/mail/u/1/#inbox" target="_blank">
-        <img src="https://img.shields.io/badge/Gmail-333333?style=for-the-badge&logo=gmail&logoColor=red" alt="Gmail">
-      </a>
-      <a href="https://www.dio.me/users/ronebragagliasso" target="_blank">
-        <img src="https://github.com/Hadryanpaulo/Hadryanpaulo/raw/b55de4628a36eaad43f0edc2709993529ae48b37/dio.me.jpeg" alt="DIO Logo" width="70">
-      </a>
-    </div>
-  </section>
+        <div class="project-card">
+            <h3>Campanha de E-mail Marketing</h3>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEhdGUlLVFYSX-3FxVhfWuCAxWdoB--5TVzw&s" alt="Campanha de E-mail Marketing">
+            <p>Criação de uma campanha automatizada de e-mail marketing para uma loja de cosméticos, com segmentação baseada em comportamento de compra e preferências dos clientes. A taxa de conversão foi de 15%.</p>
+            <a href="https://link-para-email-marketing.com">Ver Projeto</a>
+        </div>
 
-  <footer>
-    <p>&copy; 2024 Rone Bragaglia. Todos os direitos reservados.</p>
-  </footer>
+        <div class="project-card">
+            <h3>Análise de Dados de Campanha</h3>
+            <img src="https://www.c3dweb.com.br/wp-content/uploads/2020/11/Artigo-C3dWeb-Kardia-Nov-20-Tudo-o-que-voce-precisa-saber-sobre-analise-de-dados.jpg" alt="Análise de Dados de Campanha">
+            <p>Utilizando Google Analytics, analisei o desempenho de uma campanha digital, identificando as fontes de tráfego mais eficazes e otimizando as futuras ações de marketing.</p>
+            <a href="https://link-para-analise-dados-campanha.com">Ver Projeto</a>
+        </div>
+
+        <h2>Meus Projetos de Inteligência Artificial</h2>
+        
+        <div class="project-card">
+            <h3>Stock Analysis</h3>
+            <div class="projeto">
+                <div class="image-projeto">
+                    <picture>
+                        <source
+                            media="(max-width: 750px)"
+                            srcset="https://i0.wp.com/blogs.cfainstitute.org/investor/files/2022/01/Technical-Analysis-Revisited-Moving-Average-Above-Average-Returns.png?resize=940%2C575&ssl=1"
+                            width="150px"/>
+                        <source
+                            media="(max-width: 1000px)"
+                            srcset="https://i0.wp.com/blogs.cfainstitute.org/investor/files/2022/01/Technical-Analysis-Revisited-Moving-Average-Above-Average-Returns.png?resize=940%2C575&ssl=1"
+                            width="200px"/>
+                        <img
+                            src="https://i0.wp.com/blogs.cfainstitute.org/investor/files/2022/01/Technical-Analysis-Revisited-Moving-Average-Above-Average-Returns.png?resize=940%2C575&ssl=1"
+                            alt="stock analysis"
+                            width="400px"/>
+                    </picture>   
+                    <h3>Stock Analysis</h3>
+                    <small>
+                        Este projeto tem como objetivo realizar uma análise detalhada de ações da bolsa de valores, 
+                        utilizando bibliotecas populares em Python, como Pandas, Matplotlib, Seaborn e yfinance. 
+                        A análise inclui a coleta de dados históricos, cálculo de indicadores financeiros, e visualização dos dados para auxiliar na tomada de decisões de investimento.
+                        <br><br>
+                        <a href="https://github.com/Ronbragaglia/stock-analysis" target="_blank">Ver Projeto</a>
+                    </small>
+                </div>  
+            </div>
+        </div>
+
+        <div class="project-card">
+            <h3>Detecção de Fraudes em Cartões de Crédito</h3>
+            <img src="https://static.wixstatic.com/media/bdd7cb_d48d6193dde7490dacd866a52916c21e~mv2.jpg/v1/fill/w_640,h_334,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/bdd7cb_d48d6193dde7490dacd866a52916c21e~mv2.jpg" alt="Detecção de Fraudes em Cartões de Crédito">
+            <p>Desenvolvi um modelo de machine learning para detectar fraudes em transações com cartões de crédito, utilizando técnicas de redes neurais e algoritmos de decisão. O modelo obteve uma precisão de 99%.</p>
+            <a href="https://github.com/Ronbragaglia/creditcardfraud">Ver Projeto</a>
+        </div>
+
+        <div class="project-card">
+            <h3>Geração Automática de Descrições para Produtos de Moda</h3>
+            <img src="https://www.unite.ai/wp-content/uploads/2023/11/5d1f93fb-0da0-497d-9e7e-6eeafd693444.jpg" alt="Geração Automática de Descrições para Produtos de Moda">
+            <p>Criação de um sistema que utiliza redes neurais convolucionais (CNN) e modelos de linguagem GPT-2 para gerar descrições automáticas de produtos de moda. Aplicado ao dataset Fashion MNIST.</p>
+            <a href="https://github.com/Ronbragaglia/fashion-mnist-descriptions">Ver Projeto</a>
+        </div>
+
+    </main>
+
+    <section id="contatos">
+        <h2>Meus Contatos</h2>
+        <div class="contatos">
+            <a href="https://www.linkedin.com/in/rone-bragaglia-a6aa60157/" target="_blank">
+                <img src="https://img.shields.io/badge/-LinkedIn-000?style=for-the-badge&logo=linkedin&logoColor=FF00F6&color:FFF" alt="LinkedIn">
+            </a>
+            <a href="https://discord.com/channels/@me/" target="_blank">
+                <img src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white" alt="Discord">
+            </a>
+            <a href="https://ronbragaglia.github.io/Portfolio/" target="_blank">
+                <img src="https://img.shields.io/badge/Portfolio-255E63?style=for-the-badge&logo=About.me&logoColor=white" alt="Portfolio">
+            </a>
+            <a href="https://ronbragaglia.github.io/portfolio-marketing-digital./" target="_blank">
+                <img src="https://img.shields.io/badge/Portfolio-Marketing_Digital-00A7C4?style=for-the-badge&logo=Marketing&logoColor=white" alt="Portfolio Marketing Digital">
+            </a>
+            <a href="https://mail.google.com/mail/u/1/#inbox" target="_blank">
+                <img src="https://img.shields.io/badge/Gmail-333333?style=for-the-badge&logo=gmail&logoColor=red" alt="Gmail">
+            </a>
+            <a href="https://www.dio.me/users/ronebragagliasso" target="_blank">
+                <img src="https://github.com/Hadryanpaulo/Hadryanpaulo/raw/b55de4628a36eaad43f0edc2709993529ae48b37/dio.me.jpeg" alt="DIO Logo" width="70">
+            </a>
+        </div>
+    </section>
+
 </body>
 </html>
+
