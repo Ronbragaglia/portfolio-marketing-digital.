@@ -4,7 +4,7 @@ Bem-vindo ao meu portfólio! Este repositório apresenta meus projetos e habilid
 
 ## Sobre Mim
 
-Sou um profissional apaixonado I.A , por marketing digital e transformação digital, com experiência em . Estou sempre em busca de novas oportunidades para aplicar e expandir meus conhecimentos.
+Sou um profissional apaixonado por IA, Data Science e transformação digital, Estou sempre em busca de novas oportunidades para aplicar e expandir meus conhecimentos, criando soluções inovadoras que gerem impacto nas empresas.
 
 ## Projetos
 
