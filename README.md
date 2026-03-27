@@ -1,44 +1,60 @@
-# Portfólio de Marketing Digital
+# Portfólio Marketing Digital — Rone Bragaglia
 
-![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python&logoColor=white) ![Topic](https://img.shields.io/badge/Topic-digital-marketing-green) ![License](https://img.shields.io/badge/License-MIT-yellow)
+> **Live Demo:** [ronbragaglia.github.io/portfolio-marketing-digital./](https://ronbragaglia.github.io/portfolio-marketing-digital./)
 
-## Descrição
-
-Portfólio completo de Marketing Digital e Transformação Digital, apresentando projetos em SEO, redes sociais, e-mail marketing, analytics e IA aplicada ao marketing.
-
-## Funcionalidades
-
-- Projetos de SEO com resultados mensuráveis
-- Estratégias de redes sociais e gestão de conteúdo
-- Automação de e-mail marketing
-- Análise de dados de campanhas digitais
-- Aplicação de IA e Machine Learning em marketing
-
-## Stack Tecnológico
-
-| Tecnologia | Descrição |
-|---|---|
-| Marketing Digital | SEO, SEM, Social Media |
-| Analytics | Google Analytics, Data Studio |
-| Python | Automação e análise de dados |
-| IA / ML | Segmentação e predição |
-
-## Como Usar
-
-1. Navegue pelas pastas para explorar cada projeto
-2. Cada subpasta contém documentação detalhada
-3. Para projetos com código, siga as instruções individuais de cada um
-
-## Estrutura de Pastas
-
-```
-├── seo/
-├── email-marketing/
-├── social-media/
-├── analytics/
-└── ia-marketing/
-```
+Premium dark-theme single-page portfolio showcasing Marketing Digital and AI/ML projects.
 
 ---
 
-> Feito com ❤️ por Rone Bragaglia · ML Engineer & Fundador CobrançaAuto
+## Projetos de Marketing Digital
+
+| # | Projeto | Destaque |
+|---|---------|----------|
+| 1 | Gestão de Redes Sociais | Engajamento +30% |
+| 2 | Campanha de Anúncios no Instagram | Vendas +30%, ROI positivo |
+| 3 | SEO para Blog de Beleza | Tráfego orgânico +50% |
+| 4 | Campanha de E-mail Marketing | Conversão 15% |
+| 5 | Análise de Dados de Campanha | Google Analytics |
+| 6 | Análise do Filme "A Rede Social" | Impacto cultural e econômico |
+
+## Projetos de Inteligência Artificial
+
+| # | Projeto | Tech |
+|---|---------|------|
+| 1 | Análise de Ações | yfinance, SMA, RSI |
+| 2 | Rede Neural (Kaggle) | Batch normalization, Dropout |
+| 3 | MNIST CNN | TensorFlow, 60k imagens |
+| 4 | Word Embedding & Word2Vec | NLP, Olist reviews |
+| 5 | Sentimento Cinematográfico | NLP, análise de sentimento |
+| 6 | Detecção de Faces | OpenCV, DeepFace |
+| 7 | Reconhecimento de Fala | SpeechRecognition, FFmpeg |
+| 8 | Visualizador de Palavras | Wordcloud |
+| 9 | Verificar Ordem de Letras | Python, regex |
+| 10 | Palíndromo | Python |
+| 11 | Validação de Senhas | Python |
+| 12 | Jogo da Velha com IA | Minimax |
+
+---
+
+## Tech Stack
+
+- **HTML5** + **CSS3** (glassmorphism, dark theme)
+- **Google Fonts** — Inter
+- **Font Awesome 6.5.1**
+- **JavaScript** (vanilla — navbar scroll, hamburger menu)
+- Hosted via **GitHub Pages**
+
+---
+
+## Screenshot
+
+> _Adicione um screenshot aqui_
+
+---
+
+## Contato
+
+- WhatsApp: [+55 11 95409-2078](https://wa.me/5511954092078)
+- LinkedIn: [rone-bragaglia-a6aa60157](https://www.linkedin.com/in/rone-bragaglia-a6aa60157)
+- GitHub: [Ronbragaglia](https://github.com/Ronbragaglia)
+- Email: ronbragaglia@gmail.com
