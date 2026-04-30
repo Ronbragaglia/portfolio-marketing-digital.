@@ -1,4 +1,4 @@
-# Portfólio Marketing Digital — Rone Bragaglia
+# Portfólio Marketing Digital: Rone Bragaglia
 
 > **Live Demo:** [ronbragaglia.github.io/portfolio-marketing-digital./](https://ronbragaglia.github.io/portfolio-marketing-digital./)
 
@@ -39,9 +39,9 @@ Premium dark-theme single-page portfolio showcasing Marketing Digital and AI/ML 
 ## Tech Stack
 
 - **HTML5** + **CSS3** (glassmorphism, dark theme)
-- **Google Fonts** — Inter
+- **Google Fonts**: Inter
 - **Font Awesome 6.5.1**
-- **JavaScript** (vanilla — navbar scroll, hamburger menu)
+- **JavaScript** (vanilla: navbar scroll, hamburger menu)
 - Hosted via **GitHub Pages**
 
 ---
